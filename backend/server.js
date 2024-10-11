@@ -32,6 +32,7 @@ app.use(`/api/orders`, orderRoutes);
 
 app.get("/", (req,res)=>{
     res.send("Hello from ecom app");
+    console.log("Hit backend server")
     
 });
 
